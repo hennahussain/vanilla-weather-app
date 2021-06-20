@@ -3,49 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app">
-      <h1>Weather</h1>
-      <h2 class="dayandcity"><span id="date"></span>
-        Saturday, June 19th </h2><p class="cityentered">Islamabad</p>
-      </h2>
-      <strong id="temperature">85°</strong>
-      <ul>
-        <li class="units">Celsius | Fahrenheit</li>
-        <li id="description">Partly Cloudy</li>
-      </ul>
-      <div class="row">
-        <div class="col-4" id="precipitation">
-          <img src="" alt="">precipitation
+        <h1 class="dayandcity"><span id="date"></span> Saturday, June 19th</h1>
+        <p class="cityentered">Islamabad</p>
+        <h2 id="temperature">85°</h2>
+        <ul>
+          <li class="units">Celsius | Fahrenheit</li>
+          <li id="description">Partly Cloudy</li>
+        </ul>
+        <div class="row">
+          <div class="col-4" id="precipitation">
+            <img src="" alt="" />precipitation
+          </div>
+          <div class="col-4" id="humidity"><img src="" alt="" />humidity</div>
+          <div class="col-4" id="wind"><img src="" alt="" />wind</div>
         </div>
-        <div class="col-4" id="humidity">
-          <img src="" alt="">humidity
-        </div>
-        <div class="col-4" id="wind">
-          <img src="" alt="">wind
-        </div>
-      </div>
+        <small>
+          <a
+            href="https://github.com/hghussain/vanilla-weather-app"
+            target="_blank"
+          >
+            Open-source code</a
+          >
+          by Henna Hussain
+        </small>
       </div>
     </div>
-    <small>
-      <a
-        href="https://github.com/hghussain/vanilla-weather-app"
-        target="_blank"
-      >
-        Open-source code</a
-      >
-      by Henna Hussain
-    </small>
+
     <script src="src/app.js"></script>
   </body>
 </html>
