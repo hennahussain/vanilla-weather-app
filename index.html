@@ -17,7 +17,7 @@
     <div class="container">
       <div class="weather-app-wrapper"></div>
       <div class="weather-app">
-        <h1 class="dayandcity"><span id="date"></span> Saturday, June 19th</h1>
+        <h1 class="dayandcity"><span id="date"></span></h1>
         <p id="city">Islamabad</p>
         <div class="clearfix weather-temperature">
           <h2>
@@ -33,25 +33,24 @@
             <li class="units">°Cel | °Fah</li>
             <li id="description"></li>
           </ul>
-          <div class="row weatherdetails">
-            <div class="col-4" id="precipitation">
-              <img src="" alt="" />precipitation
-            </div>
-            <div class="col-4">
-              <img
-                src="https://image.flaticon.com/icons/png/128/1622/1622158.png"
-                alt=""
-              />
-              <div id="humidity"></div>
-              <span>%</span>
-            </div>
-            <div class="col-4">
-              <img
-                src="https://image.flaticon.com/icons/png/128/2676/2676047.png"
-                alt=""
-              />
-              <div id="wind"></div>
-              km/h
+          <div class="weatherdetails-container">
+            <div class="row weatherdetails">
+              <div class="col-sm-6">
+                <img
+                  src="https://image.flaticon.com/icons/png/128/1622/1622158.png"
+                  alt=""
+                />
+                <div id="humidity"></div>
+                <span>%</span>
+              </div>
+              <div class="col-sm-6">
+                <img
+                  src="https://image.flaticon.com/icons/png/128/2676/2676047.png"
+                  alt=""
+                />
+                <div id="wind"></div>
+                km/h
+              </div>
             </div>
           </div>
         </div>
