@@ -2,14 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.weather-app {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-}
-
 h1 {
   display: block;
   font-size: 24px;
@@ -36,14 +28,29 @@ p {
 
 li {
   list-style: none;
+  text-transform: capitalize;
   font-size: 16px;
   font-weight: 100;
 }
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 40px auto;
+}
 
-.second-block {
-  text-align: center;
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
 
 .row {
+  text-align: center;
+}
+
+.units {
+  text-align: center;
+}
+
+#description {
   text-align: center;
 }

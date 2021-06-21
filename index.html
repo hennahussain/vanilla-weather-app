@@ -9,38 +9,62 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper"></div>
       <div class="weather-app">
         <h1 class="dayandcity"><span id="date"></span> Saturday, June 19th</h1>
-        <p class="cityentered">Islamabad</p>
-        <div class="second-block">
-          <h2 id="temperature">85°</h2>
+        <p id="city">Islamabad</p>
+        <div class="clearfix weather-temperature">
+          <h2>
+            <img
+              src="https://image.flaticon.com/icons/png/128/1004/1004611.png"
+              alt="Clear"
+              id="icon"
+              class="float-left"
+            />
+            <strong id="temperature"></strong>
+          </h2>
           <ul>
-            <li class="units">Celsius | Fahrenheit</li>
-            <li id="description">Partly Cloudy</li>
+            <li class="units">°Cel | °Fah</li>
+            <li id="description"></li>
           </ul>
-        </div>
-        <div class="row">
-          <div class="col-4" id="precipitation">
-            <img src="" alt="" />precipitation
+          <div class="row weatherdetails">
+            <div class="col-4" id="precipitation">
+              <img src="" alt="" />precipitation
+            </div>
+            <div class="col-4">
+              <img
+                src="https://image.flaticon.com/icons/png/128/1622/1622158.png"
+                alt=""
+              />
+              <div id="humidity"></div>
+              <span>%</span>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://image.flaticon.com/icons/png/128/2676/2676047.png"
+                alt=""
+              />
+              <div id="wind"></div>
+              km/h
+            </div>
           </div>
-          <div class="col-4" id="humidity"><img src="" alt="" />humidity</div>
-          <div class="col-4" id="wind"><img src="" alt="" />wind</div>
         </div>
+        <small>
+          <a
+            href="https://github.com/hghussain/vanilla-weather-app"
+            target="_blank"
+          >
+            Open-source code</a
+          >
+          by Henna Hussain
+        </small>
       </div>
-      <small>
-        <a
-          href="https://github.com/hghussain/vanilla-weather-app"
-          target="_blank"
-        >
-          Open-source code</a
-        >
-        by Henna Hussain
-      </small>
     </div>
 
     <script src="src/app.js"></script>
