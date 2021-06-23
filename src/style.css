@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/blacksand.jpg");
+  background-image: url("images/cloudy.jpeg");
   font-family: "Cardo", serif;
 }
 
@@ -37,8 +37,8 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-img {
-  font-size: small;
+small {
+  margin-left: 325px;
 }
 
 .background-image {
@@ -53,15 +53,15 @@ img {
 
 .weather-app {
   display: block;
-  margin: 0;
-  max-width: 450px;
+  margin-left: 325px;
+  max-width: 650px;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 15px;
 }
 
 .weatherdetails-container {
-  max-width: 350px;
+  max-width: 450px;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #dadde1;
@@ -87,4 +87,13 @@ img {
 
 #description {
   text-align: center;
+}
+
+.col-sm-4 {
+  font-size: 17px;
+}
+
+.detail-icon {
+  width: 40px;
+  height: 50px;
 }
