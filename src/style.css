@@ -1,6 +1,10 @@
 body {
-  background-image: url("images/cloudy.jpeg");
   font-family: "Cardo", serif;
+  color: gainsboro;
+}
+
+div.weather-app {
+  background-image: url("../images/walking-b:w.jpg");
 }
 
 h1 {
@@ -41,10 +45,6 @@ small {
   margin-left: 325px;
 }
 
-.background-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .weather-app-wrapper {
   max-width: 550px;
   display: block;
@@ -52,6 +52,8 @@ small {
 }
 
 .weather-app {
+  background-size: cover;
+  background-repeat: no-repeat;
   display: block;
   margin-left: 325px;
   max-width: 650px;
@@ -69,7 +71,7 @@ small {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: gainsboro;
   cursor: default;
 }
 
