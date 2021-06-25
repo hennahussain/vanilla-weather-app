@@ -43,6 +43,7 @@ li::first-letter {
 
 small {
   margin-left: 325px;
+  color: darkgray;
 }
 
 .weather-app-wrapper {
