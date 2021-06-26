@@ -19,28 +19,33 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
-  <body class="background-image">
+  <body class="background-gif">
     <div class="container">
       <div class="weather-app-wrapper"></div>
       <div class="weather-app">
         <form id="search-form" class="mb-5">
           <div class="row">
-            <div class="col-9">
+            <div class="col-6">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="Enter a city..."
                 class="form-control"
                 id="city-input"
                 autocomplete="off"
               />
             </div>
-            <div class="col-3">
-              <input type="submit" value="search" class="btn btn-primary" />
+            <div class="col-1">
+              <input
+                class="btn btn-primary w-20"
+                type="submit"
+                value="🔍"
+                id="search-button"
+              />
             </div>
           </div>
         </form>
         <h1 class="dayandcity"><span id="date"></span></h1>
-        <p id="city">Islamabad</p>
+        <p id="city"></p>
         <div class="clearfix weather-temperature">
           <h2>
             <img src="" alt="Clear" id="icon" class="float-left" />

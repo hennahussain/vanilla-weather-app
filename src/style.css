@@ -1,14 +1,19 @@
 body {
+  background-image: url("../images/fallingstars.png");
   font-family: "Cardo", serif;
   color: gainsboro;
 }
-
+.background-gif {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 div.weather-app {
-  background-image: url("../images/walking-b:w.jpg");
+  background-image: url("../images/cloudy.jpeg");
 }
 
 h1 {
   display: block;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -16,8 +21,9 @@ h1 {
 }
 
 h2 {
+  margin-top: 36px;
   display: block;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 100;
   line-height: 28px;
   text-align: center;
@@ -66,6 +72,7 @@ small {
 .weatherdetails-container {
   max-width: 450px;
   margin: 20px auto;
+  margin-top: 80px;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
@@ -81,7 +88,8 @@ small {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 15px;
   text-align: center;
   color: gainsboro;
 }
@@ -95,8 +103,19 @@ small {
   font-size: 13px;
 }
 
-.weather-forecast-temperatures-min {
+.weather-forecast-temperature-min {
   opacity: 0.4;
+  color: lightskyblue;
+}
+
+.form-control {
+  background-image: none;
+  background-color: transparent;
+}
+
+.btn btn-info {
+  background: transparent;
+  margin-left: -40px;
 }
 
 .row {
